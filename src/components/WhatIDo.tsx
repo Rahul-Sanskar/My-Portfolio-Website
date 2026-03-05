@@ -90,18 +90,18 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>AI Modules, Databases, Full-Stack Development, and Cloud Hosting</h4>
               <p>
-              I develop AI modules, manage databases, and build full-stack solutions with seamless cloud hosting. 
-              My focus is on scalable, efficient, and user-centric applications.
+              I build AI-powered features and scalable full-stack applications with smooth cloud 
+              deployment, focusing on performance and real-world usability.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">C++</div>
+                <div className="what-tags">Java</div>
                 <div className="what-tags">React</div>
                 <div className="what-tags">MySql</div>
                 <div className="what-tags">Docker</div>
-                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Postgresql</div>
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">HTML</div>
                 <div className="what-tags">CSS</div>
@@ -128,23 +128,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>Write</h3>
-              <h4>Content Writing and SEO Optimization</h4>
+              <h3>Document</h3>
+              <h4>Technical Content Writing and SEO Optimization</h4>
               <p>
-              I create high-quality, engaging content tailored for diverse audiences, 
-              focusing on SEO optimization to boost visibility and engagement. 
-              My expertise includes technical blogs, articles, reserach papers and marketing copy that drive results.
+              I create high-quality technical content including blogs, articles, and research papers, 
+              focusing on clarity, accuracy, and impactful communication.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Content Strategy</div>
                 <div className="what-tags">SEO</div>
                 <div className="what-tags">Research Analytics</div>
-                <div className="what-tags">Wordpress</div>
-                <div className="what-tags">Copywriting</div>
+                <div className="what-tags">Latex</div>
+                <div className="what-tags">Draw.io</div>
                 <div className="what-tags">Canva</div>
                 <div className="what-tags">MS Office</div>
-                <div className="what-tags">Social Media Marketing</div>
+                <div className="what-tags">Colab</div>
               </div>
               <div className="what-arrow"></div>
             </div>
