@@ -2,16 +2,22 @@ import { useEffect, useState } from "react";
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
-const API_URL = ""; // Replace with your deployed backend URL
-
 const Contact = () => {
   const [visitCount, setVisitCount] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch(API_URL, { method: "POST" }) // Send request to update count
+    // Using CountAPI.xyz - free visit counter service
+    // Replace 'rahul-sanskar-portfolio' with your unique namespace
+    fetch("https://api.countapi.xyz/hit/rahul-sanskar-portfolio/visits")
       .then((response) => response.json())
-      .then((data) => setVisitCount(data.count))
-      .catch((error) => console.error("Error fetching visit count:", error));
+      .then((data) => setVisitCount(data.value))
+      .catch((error) => {
+        console.error("Error fetching visit count:", error);
+        // Fallback to localStorage if API fails
+        const localCount = parseInt(localStorage.getItem("visitCount") || "0", 10) + 1;
+        localStorage.setItem("visitCount", localCount.toString());
+        setVisitCount(localCount);
+      });
   }, []);
 
   return (
