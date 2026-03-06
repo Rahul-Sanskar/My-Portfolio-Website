@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          My Career <span>&</span>
+          <br /> Experiences
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -22,9 +22,11 @@ const Career = () => {
               <h3>Aug 2025 - Present</h3>
             </div>
             <p>
-            Delivered 35+ production features across backend and frontend systems, 
-            built microservice APIs using Spring Boot, and improved platform reliability 
-            and API performance through optimized architecture and scalable implementations.
+            Delivered 35+ production features across AI/ML, backend, and frontend 
+            systems, including building an AI-driven Forex Rate Prediction System for 
+            real-time market analysis. Developed scalable microservice APIs using 
+            Spring Boot and improved platform reliability and API performance through 
+            optimized architecture.
             </p>
           </div>
 
@@ -37,9 +39,12 @@ const Career = () => {
               <h3>Jun 2025 - Present</h3>
             </div>
             <p>
-            Developed multiple AI systems including anomaly detection and predictive analytics pipelines, 
-            built AI-powered dashboards for institutional data insights, and improved encrypted model 
-            inference performance through noise-aware FHE-based optimization.
+            I have worked on multiple AI and full-stack systems including MACER 
+            (vehicular cloud computing), FHE inference acceleration, AI anomaly 
+            detection pipelines, Bihar Medical Colleges ICT dashboard, and research
+             models such as OptimaNet (CNN-ViT myeloma detection), YOLO ensembles, 
+             Hybrid PPO cloud scheduling, MAGADH classification, DeepSoilNet, and 
+             IoT-based smart irrigation.
             </p>
           </div>
 
@@ -52,9 +57,10 @@ const Career = () => {
               <h3>Jul 2024 - Apr 2025</h3>
             </div>
             <p>
-            Built Mediport, a hospital report generation system used by medical staff, 
-            integrated secure Ayushman Bharat data synchronization, and reduced report 
-            processing time by 40% through automated backend pipelines.
+            Built Mediport, a hospital report generation system used by 20+ staff 
+            members in the department, integrated secure Ayushman Bharat data 
+            synchronization, and reduced report processing time by 40% through 
+            automated backend data pipelines and workflow optimization.
             </p>
           </div>
 
@@ -67,9 +73,12 @@ const Career = () => {
               <h3>Jul 2024 - Feb 2025</h3>
             </div>
             <p>
-            Increased user engagement by 35%, optimized database queries reducing 
-            retrieval time by 40%, and supported AI-driven product development 
-            through cross-functional collaboration across multiple projects.
+           Increased user engagement by 35% and reduced database retrieval time by
+            40% through optimized queries. Developed a RAG-based document reader 
+            with an LLM-powered question–answer chatbot that responds using 
+            uploaded documents. Collaborated with cross-functional teams to support
+             AI-driven product development across multiple projects and improve 
+             overall system usability and performance.
             </p>
           </div>
 
@@ -84,7 +93,9 @@ const Career = () => {
             <p>
             Developed backend algorithms improving system performance by 30%, 
             implemented multiple AI models through applied machine learning research, 
-            and optimized workflows to significantly reduce data processing time.
+            and optimized workflows to reduce data processing time. Also authored the 
+            article “Redefining Shopping in the Digital Age,” which was featured on 
+            the company’s website at the front page.
             </p>
           </div>
 
@@ -97,9 +108,12 @@ const Career = () => {
               <h3>Jan 2023 - Mar 2023</h3>
             </div>
             <p>
-            Produced 50+ SEO-optimized articles for digital campaigns, 
-            increasing readership and website traffic through structured, 
-            research-driven content and audience-focused writing.
+            Produced 50+ SEO-optimized articles for digital campaigns, increasing 
+            readership and website traffic through structured, research-driven writing. 
+            Created engaging educational and marketing content tailored for diverse 
+            audiences, helping strengthen the platform’s online presence and improve 
+            content visibility through effective keyword optimization and audience-focused 
+            storytelling.
             </p>
           </div>
 
