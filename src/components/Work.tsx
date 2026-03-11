@@ -27,11 +27,12 @@ const Work = () => {
       scrollTrigger: {
         trigger: ".work-section",
         start: "top top",
-        end: "bottom top",
+        end: () => `+=${translateX + window.innerHeight}`,
         scrub: true,
         pin: true,
         pinType: !ScrollTrigger.isTouch ? "transform" : "fixed",
         id: "work",
+        anticipatePin: 1,
       },
     });
 
