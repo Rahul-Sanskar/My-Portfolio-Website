@@ -136,56 +136,39 @@ export function setAllTimeline() {
   const careerTimeline = gsap.timeline({
     scrollTrigger: {
       trigger: ".career-section",
-      start: "top 30%",
-      end: "100% center",
-      scrub: true,
+      start: "top 60%",
+      end: "bottom 20%",
+      scrub: 1.5,
       invalidateOnRefresh: true,
     },
   });
+  
   careerTimeline
     .fromTo(
       ".career-timeline",
-      { maxHeight: "10%" },
-      { maxHeight: "100%", duration: 0.5 },
-      0
-    )
-
-    .fromTo(
-      ".career-timeline",
-      { opacity: 0 },
-      { opacity: 1, duration: 0.1 },
+      { maxHeight: "0%", opacity: 0 },
+      { maxHeight: "100%", opacity: 1, duration: 1, ease: "power2.out" },
       0
     )
     .fromTo(
       ".career-info-box",
-      { opacity: 0 },
-      { opacity: 1, stagger: 0.1, duration: 0.5 },
-      0
+      { opacity: 0, y: 20 },
+      { 
+        opacity: 1, 
+        y: 0,
+        stagger: 0.2, 
+        duration: 0.6,
+        ease: "power2.out"
+      },
+      0.1
     )
-    .fromTo(
+    .to(
       ".career-dot",
-      { animationIterationCount: "infinite" },
       {
         animationIterationCount: "1",
-        delay: 0.3,
         duration: 0.1,
+        delay: 0.9,
       },
       0
     );
-
-  if (window.innerWidth > 1024) {
-    careerTimeline.fromTo(
-      ".career-section",
-      { y: 0 },
-      { y: "20%", duration: 0.5, delay: 0.2 },
-      0
-    );
-  } else {
-    careerTimeline.fromTo(
-      ".career-section",
-      { y: 0 },
-      { y: 0, duration: 0.5, delay: 0.2 },
-      0
-    );
-  }
 }
