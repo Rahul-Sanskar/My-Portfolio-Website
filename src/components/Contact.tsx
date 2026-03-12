@@ -28,13 +28,21 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:rahulsanskar1607@gmail.com" data-cursor="disable">
+              <a 
+                href="mailto:rahulsanskar1607@gmail.com" 
+                data-cursor="disable"
+                style={{ cursor: 'pointer', pointerEvents: 'auto' }}
+              >
                 rahulsanskar1607@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+916204796303" data-cursor="disable">
+              <a 
+                href="tel:+916204796303" 
+                data-cursor="disable"
+                style={{ cursor: 'pointer', pointerEvents: 'auto' }}
+              >
                 +91 6204796303
               </a>
             </p>
